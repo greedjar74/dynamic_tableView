@@ -13,6 +13,8 @@
 		BE667272282A921C00B52E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE667270282A921C00B52E48 /* Main.storyboard */; };
 		BE667274282A921D00B52E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE667273282A921D00B52E48 /* Assets.xcassets */; };
 		BE667277282A921D00B52E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE667275282A921D00B52E48 /* LaunchScreen.storyboard */; };
+		BE66727F282A927500B52E48 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE66727E282A927500B52E48 /* MyTableViewCell.xib */; };
+		BE667281282A96EE00B52E48 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE667280282A96EE00B52E48 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BE667273282A921D00B52E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE667276282A921D00B52E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE667278282A921D00B52E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE66727E282A927500B52E48 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		BE667280282A96EE00B52E48 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				BE66726A282A921C00B52E48 /* AppDelegate.swift */,
 				BE66726C282A921C00B52E48 /* SceneDelegate.swift */,
 				BE66726E282A921C00B52E48 /* ViewController.swift */,
+				BE667280282A96EE00B52E48 /* MyTableViewCell.swift */,
 				BE667270282A921C00B52E48 /* Main.storyboard */,
+				BE66727E282A927500B52E48 /* MyTableViewCell.xib */,
 				BE667273282A921D00B52E48 /* Assets.xcassets */,
 				BE667275282A921D00B52E48 /* LaunchScreen.storyboard */,
 				BE667278282A921D00B52E48 /* Info.plist */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE667277282A921D00B52E48 /* LaunchScreen.storyboard in Resources */,
+				BE66727F282A927500B52E48 /* MyTableViewCell.xib in Resources */,
 				BE667274282A921D00B52E48 /* Assets.xcassets in Resources */,
 				BE667272282A921C00B52E48 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE66726F282A921C00B52E48 /* ViewController.swift in Sources */,
+				BE667281282A96EE00B52E48 /* MyTableViewCell.swift in Sources */,
 				BE66726B282A921C00B52E48 /* AppDelegate.swift in Sources */,
 				BE66726D282A921C00B52E48 /* SceneDelegate.swift in Sources */,
 			);
